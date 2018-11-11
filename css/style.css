@@ -1,0 +1,253 @@
+@charset "UTF-8";
+@author "Marlon Martins";
+body{
+	font-family:verdana;
+	background-color:lightgray;
+}
+.topo{
+	float:left;
+}
+#cssmenu{
+	z-index:999;
+}
+/*home*/
+.home{
+	background:url(../img/background2.jpg) no-repeat;
+	width:100%;
+	background-size:100%;
+	height:850px;
+	text-align:center;
+}
+.home h1{
+	color:rgba(243, 174, 30, 1);
+	padding:100px;
+}
+.veja{
+	margin-top:300px;
+}
+/*menu*/
+table{
+	margin:0 auto;
+}
+table td{
+	padding: 10px;
+}
+#menu img{
+	height:150px;
+}
+/*conteudo*/
+#menu,#filme1,#filme2,#filme3,#filme4,#filme5,#filme6,#filme7,#filme8,#filmeRO,#galeria,#enquete{
+	height:800px;
+	width:50%;
+	margin:0 auto;
+	text-align:center;
+	padding-top:100px;
+}
+#filme1 img,#filme2 img,#filme3 img,#filme4 img,#filme5 img,#filme6 img,#filme7 img,#filme8 img,#filmeRO img{
+	height:300px;
+	margin:0 auto;
+	margin-top:30px;
+}
+#filme1 p,#filme2 p,#filme3 p,#filme4 p,#filme5 p,#filme6 p,#filme7 p,#filme8 p,#filmeRO p,#galeria p{
+	text-indent:3%;
+	text-align:justify;
+	margin-top:30px;
+}
+#galeria{
+	height:1600px;
+}
+.video{
+	width:560px; 
+	height:315px;
+	margin:0 auto;
+}
+.video iframe{
+	width:100%;
+	height:100%;
+	border:0;
+}
+/*enquete*/
+#enquete{
+	width:55%;
+	height:800px;
+}
+.direita{
+	float:left;
+	margin:0 2% 0 2%;
+	text-align:left;
+}	
+.esquerda{
+	float:left;
+	position:relative;
+	margin:0 2% 0 2%;
+}
+footer{
+	background:black;
+	width:100%;
+	height:60px;
+	line-height:45px;
+	text-align:center;
+}
+.rodapee{
+	background:black;
+	float:left;
+	width:50%;
+	padding:5px 5% 5px 1%;
+	text-align:left;
+}
+.rodaped{
+	background:black;
+	float:left;
+	position:relative;
+	width:50%;
+	padding:5px 1% 5px 5%;
+	text-align:right;
+}
+@media screen and (max-width: 1200px){
+	.home{
+		background:url(../img/background3.jpg) no-repeat;
+		width:100%;
+		background-size:100%;
+		height:850px;
+		text-align:center;
+	}
+	#enquete{
+		width:65%;
+		height:800px;
+	}
+}
+@media screen and (max-width: 768px){
+	.home{
+		background:url(../img/background4.jpg) no-repeat;
+		width:100%;
+		background-size:100%;
+		height:1024px;
+		text-align:center;
+	}
+	.home h1{
+		color:rgba(243, 174, 30, 1);
+		padding-top:250px;
+	}
+	.veja{
+		margin-top:350px;
+	}
+	#menu img{
+		height:200px;
+	}
+	#menu,#filme1,#filme2,#filme3,#filme4,#filme5,#filme6,#filme7,#filme8,#filmeRO,#galeria,#enquete{
+		height:1024px;
+		width:90%;
+		margin:0 auto;
+		text-align:center;
+		padding-top:100px;
+	}
+	.video{
+		width:560px; 
+		height:315px;
+		margin:0 auto;
+	}
+	#enquete{
+		width:100%;
+		margin-top:500px;
+	}
+	.direita{
+		width:100%;
+		float:left;
+		margin:0 auto;
+		text-align:center;
+		margin-bottom:10px;
+	}	
+	.esquerda{
+		clear:both;
+		width:100%;
+		float:left;
+		margin:0 auto;
+		margin-bottom:30px;
+	}
+	footer{
+		background:black;
+		width:100%;
+		line-height:45px;
+		text-align:center;
+		
+	}
+}
+@media screen and (max-width: 480px){
+	.home{
+		background:url(../img/background6.jpg) no-repeat;
+		width:100%;
+		background-size:100%;
+		height:850px;
+		text-align:center;
+	}
+	.home h1{
+		color:rgba(243, 174, 30, 1);
+		padding:65px;
+		font-size:2em;
+	}
+	.veja{
+		margin-top:250px;
+	}
+	#menu img{
+		height:100px;
+	}
+	#menu,#filme1,#filme2,#filme3,#filme4,#filme5,#filme6,#filme7,#filme8,#filmeRO,#enquete{
+		height:800px;
+		width:100%;
+		margin:0 auto;
+		text-align:center;
+		padding-top:100px;
+	}
+	#filme1 p,#filme2 p,#filme3 p,#filme4 p,#filme5 p,#filme6 p,#filme7 p,#filme8 p,#filmeRO p{
+		text-align:justify;
+		margin-top:30px;
+		padding:0 10px 0 10px;
+		font-size:0.80em;
+	}
+	.video{ 
+		width:100%;
+		height:223px;
+	}
+	#enquete{
+		width:100%;
+		margin-top:500px;
+	}
+	footer{
+		background-color:lightgray;
+		font-size:0.7em;
+	}
+	.rodapee{
+		background:black;
+		float:left;
+		width:40%;
+		padding:5px 5% 5px 1%;
+		text-align:left;
+	}
+	.rodaped{
+		background:black;
+		float:left;
+		position:relative;
+		width:60%;
+		padding:5px 1% 5px 5%;
+		text-align:right;
+	}
+}
+@media screen and (max-width: 400px){
+	.home{
+		background:url(../img/background6.jpg) no-repeat;
+		width:100%;
+		background-size:100%;
+		height:850px;
+		text-align:center;
+		margin-top:-20px;
+	}
+	.home h1{
+		color:rgba(243, 174, 30, 1);
+		padding:40px;
+		font-size:1.5em;
+	}
+	.veja{
+		margin-top:200px;
+	}
+	
+}
